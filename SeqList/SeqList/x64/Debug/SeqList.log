@@ -1,0 +1,5 @@
+﻿  SeqList.cpp
+  main.cpp
+f:\data-structure-and-algorithms\seqlist\seqlist\main.cpp(8): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  SeqList.vcxproj -> F:\Data-Structure-And-Algorithms\SeqList\x64\Debug\SeqList.exe
