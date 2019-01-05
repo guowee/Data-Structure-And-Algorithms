@@ -1,0 +1,7 @@
+﻿  LinkList.cpp
+f:\data-structure-and-algorithms\linklist\linklist\linklist.cpp(88): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\data-structure-and-algorithms\linklist\linklist\linklist.cpp(106): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\data-structure-and-algorithms\linklist\linklist\linklist.cpp(143): warning C4101: 'q': unreferenced local variable
+  main.cpp
+  Generating Code...
+  LinkList.vcxproj -> F:\Data-Structure-And-Algorithms\LinkList\Debug\LinkList.exe
