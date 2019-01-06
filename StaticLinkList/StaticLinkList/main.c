@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include "Header.h"
 
@@ -11,18 +10,25 @@ void PrintElem(LElemType_S e)
 int test() {
 
 	SLinkList S;
-	FILE *fp;
+	errno_t err;
 	int len_A, len_B, i;
 	LElemType_S A[100], B[100];
 
 	len_A = 3;
 	len_B = 5;
-	fp = fopen("TestData.txt","r");	//文件指针，指向数据源
-	for (i = 0; i < len_A; i++)				//集合A 
-		Scanf(fp, "%d", &A[i]);
-	for (i = 0; i < len_B; i++)				//集合B 
-		Scanf(fp, "%d", &B[i]);
-	fclose(fp);
+	FILE *stream;
+	if ((err = fopen_s(&stream,"TestData.txt","r"))!=0) {
+		printf("The file 'TestData.txt' was not opened! ");
+	}
+	else
+	{
+		for (i = 0; i < len_A; i++)				//集合A 
+			Scanf(stream, "%d", &A[i]);
+		for (i = 0; i < len_B; i++)				//集合B 
+			Scanf(stream, "%d", &B[i]);
+	}
+	   
+	fclose(stream);
 
 	printf("A = ");
 	for (i = 0; i < len_A; i++)
