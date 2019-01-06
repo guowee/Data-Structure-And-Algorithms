@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include "Status.h"
-
+#include "Scanf.h"
 #define MAXSIZE 1000
 
 typedef int LElemType_S;
@@ -46,5 +46,7 @@ Status ListInsert_SL(SLinkList H, int i, LElemType_S e);
 Status ListDelete_SL(SLinkList H, int i, LElemType_S *e);
 
 Status ListTraverse_SL(SLinkList H,void(Visit)(LElemType_S));
+
+void difference(SLinkList *S,LElemType_S A[],int len_A,LElemType_S B[],int len_B);
 
 #endif
