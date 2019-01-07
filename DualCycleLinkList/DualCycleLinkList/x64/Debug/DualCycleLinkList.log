@@ -1,0 +1,6 @@
+﻿  DualCycleLinkList.cpp
+  main.cpp
+f:\data-structure-and-algorithms\dualcyclelinklist\dualcyclelinklist\main.cpp(105): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'DuLinkList'
+f:\data-structure-and-algorithms\dualcyclelinklist\dualcyclelinklist\main.cpp(105): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'DuLinkList'
+  Generating Code...
+  DualCycleLinkList.vcxproj -> F:\Data-Structure-And-Algorithms\DualCycleLinkList\x64\Debug\DualCycleLinkList.exe
