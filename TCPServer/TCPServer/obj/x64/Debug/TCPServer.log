@@ -1,0 +1,11 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.6.210'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+F:\VisualStudioProjects\TCPServer\TCPServer\main.cpp(31,47): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\VisualStudioProjects\TCPServer\TCPServer\main.cpp(31,47): warning :    int len = recv(fd, buffer, sizeof(buffer), 0);
+F:\VisualStudioProjects\TCPServer\TCPServer\main.cpp(31,47): warning :                                                ^
+  Linking objects
+  TCPServer.vcxproj -> F:\VisualStudioProjects\TCPServer\TCPServer\bin\x64\Debug\TCPServer.out

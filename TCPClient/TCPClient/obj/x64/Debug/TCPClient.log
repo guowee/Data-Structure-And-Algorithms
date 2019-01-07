@@ -1,0 +1,14 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.6.210'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+F:\VisualStudioProjects\TCPClient\TCPClient\main.cpp(19,12): warning : unused variable ‘len’ [-Wunused-variable]
+F:\VisualStudioProjects\TCPClient\TCPClient\main.cpp(19,12): warning :   socklen_t len;
+F:\VisualStudioProjects\TCPClient\TCPClient\main.cpp(19,12): warning :             ^
+F:\VisualStudioProjects\TCPClient\TCPClient\main.cpp(20,7): warning : unused variable ‘buf’ [-Wunused-variable]
+F:\VisualStudioProjects\TCPClient\TCPClient\main.cpp(20,7): warning :   char buf[BUFFER_SIZE];
+F:\VisualStudioProjects\TCPClient\TCPClient\main.cpp(20,7): warning :        ^
+  Linking objects
+  TCPClient.vcxproj -> F:\VisualStudioProjects\TCPClient\TCPClient\bin\x64\Debug\TCPClient.out

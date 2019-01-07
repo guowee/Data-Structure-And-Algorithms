@@ -1,0 +1,1 @@
+g++ -o "/root/projects/TCPClient/bin/x64/Debug/TCPClient.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/TCPClient/obj/x64/Debug/main.o
