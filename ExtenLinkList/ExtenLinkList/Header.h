@@ -68,4 +68,10 @@ Status ListInsert_L_E(ELinkList *L,int index,LElemType_E e);
 
 Status ListDelete_L_E(ELinkList *L,int index,LElemType_E *e);
 
+Status MergeEList_L(ELinkList La,ELinkList Lb,ELinkList *Lc, int(Compare)(LElemType_E,LElemType_E));
+
+int Cmp(LElemType_E c1, LElemType_E c2);
+
+Status CreateList_ascend(FILE *fp, ELinkList *L, int count);
+
 #endif // !HEADER_H

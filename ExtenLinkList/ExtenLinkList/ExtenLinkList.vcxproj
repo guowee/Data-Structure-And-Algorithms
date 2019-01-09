@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Scanf.h" />
     <ClInclude Include="Status.h" />
   </ItemGroup>
@@ -151,6 +152,13 @@
     <ClCompile Include="ExtenLinkList.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Scanf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExtenLinkList.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestData_La.txt" />
+    <Text Include="TestData_Lb.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

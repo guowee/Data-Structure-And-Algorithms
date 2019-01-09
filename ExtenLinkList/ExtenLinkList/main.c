@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "Header.h"
 
 
@@ -249,6 +250,43 @@ int main(int argc, char **argv)
 		L.head != NULL && L.tail != NULL ? printf(" L 存在！\n") : printf(" L 不存在！！\n");
 		printf("\n");
 	}
+	PressEnter;
+
+
+	FILE *fp;
+	ELinkList La, Lb, Lc;
+	int m, n;
+	errno_t err;
+
+	m = 6;
+	n = 7;
+
+	printf("作为示例，La长度设定为 %d ，Lb设定为 %d ，创建La和Lb...\n", m, n);
+
+	if ((err = fopen_s(&fp, "TestData_La.txt", "r")) != 0) {
+		printf("The file 'TestData_La.txt' was not opened! ");
+	}
+
+	CreateList_ascend(fp, &La, m);		//创建La与Lb 
+	fclose(fp);
+	if ((err = fopen_s(&fp, "TestData_Lb.txt", "r")) != 0) {
+		printf("The file 'TestData_Lb.txt' was not opened! ");
+	}
+	CreateList_ascend(fp, &Lb, n);
+	fclose(fp);
+
+	printf("La= ");						//输出La与Lb 
+	ListTraverse_E(La, PrintElem);
+	printf("\n");
+	printf("Lb= ");
+	ListTraverse_E(Lb, PrintElem);
+	printf("\n\n");
+	PressEnter;
+
+	MergeEList_L(La, Lb, &Lc, Cmp);
+	printf("合并La和Lb为 Lc = ");
+	ListTraverse_E(Lc, PrintElem);
+	printf("\n\n");
 	PressEnter;
 
 	return 0;

@@ -1,10 +1,10 @@
 ﻿  main.c
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(79): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'Link'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(79): warning C4313: 'printf': '%x' in format string conflicts with argument 2 of type 'Link'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(103): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'Position'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(103): warning C4313: 'printf': '%x' in format string conflicts with argument 2 of type 'Position'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(195): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'Link'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(195): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'Link'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(203): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'Link'
-f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(203): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'Link'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(80): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'Link'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(80): warning C4313: 'printf': '%x' in format string conflicts with argument 2 of type 'Link'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(104): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'Position'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(104): warning C4313: 'printf': '%x' in format string conflicts with argument 2 of type 'Position'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(196): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'Link'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(196): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'Link'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(204): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'Link'
+f:\data-structure-and-algorithms\extenlinklist\extenlinklist\main.c(204): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'Link'
   ExtenLinkList.vcxproj -> F:\Data-Structure-And-Algorithms\ExtenLinkList\x64\Debug\ExtenLinkList.exe
