@@ -1,0 +1,6 @@
+﻿  Polynomial.c
+f:\data-structure-and-algorithms\polynomial\polynomial\polynomial.c(313): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  main.c
+f:\data-structure-and-algorithms\polynomial\polynomial\main.c(11): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+  Polynomial.vcxproj -> F:\Data-Structure-And-Algorithms\Polynomial\x64\Debug\Polynomial.exe
